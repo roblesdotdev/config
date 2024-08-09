@@ -1,0 +1,7 @@
+[window]
+dimensions = { columns = 120, lines = 32 }
+padding = { x = 3, y = 3 }
+
+[font]
+size = 16.0
+normal = { family = "JetbrainsMono NF", style = "Regular" }
