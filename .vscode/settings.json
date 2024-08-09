@@ -1,0 +1,127 @@
+{
+  "workbench.colorTheme": "Tokyo Night",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.rulers": [80],
+  "editor.snippetSuggestions": "inline",
+  "editor.suggest.showKeywords": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "window.menuBarVisibility": "hidden",
+  "window.zoomLevel": 0.3,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed"
+  },
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "files.exclude": {
+    "**/.env": false,
+    "USE_GITIGNORE": true
+  },
+  "files.associations": {
+    "*.md": "mdx",
+    "*.xml": "html",
+    "*.svg": "html"
+  },
+  "files.defaultLanguage": "{activeEditorLanguage}",
+  "javascript.validate.enable": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.options": {
+    "overrideConfig": {
+      "rules": {
+        "no-debugger": "off"
+      }
+    }
+  },
+  "terminal.integrated.scrollback": 10000,
+  "editor.lineNumbers": "on",
+  "workbench.startupEditor": "none",
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": false,
+  "workbench.editor.limit.value": 10,
+  "debug.javascript.codelens.npmScripts": "never",
+  "breadcrumbs.enabled": true,
+  "grunt.autoDetect": "off",
+  "npm.runSilent": true,
+  "gulp.autoDetect": "off",
+  "explorer.confirmDragAndDrop": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "editor.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "php.suggest.basic": false,
+  "editor.suggestSelection": "first",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "npm.packageManager": "npm",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+  "editor.fontSize": 18,
+  "terminal.integrated.fontSize": 20,
+  "workbench.statusBar.visible": true,
+  "editor.cursorBlinking": "solid",
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.showExpandedAbbreviation": "never",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "workbench.editor.enablePreview": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ]
+}
